@@ -1,8 +1,15 @@
+import About from './Components/About'
+import Blogs from './Components/Blogs'
+import CEx from './Components/CEx'
+import Contact from './Components/Contact'
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-      <button className="btn btn-accent btn-outline">Three</button>
-    </h1>
+    <div className="bg-test">
+      <About />
+      <CEx />
+      <Blogs />
+      <Contact />
+    </div>
   )
 }
