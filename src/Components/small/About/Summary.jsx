@@ -1,4 +1,4 @@
-import MainImage from '../../../../public/img/1.jpg'
+import MainImage from '../../../assets/img/1.jpg'
 
 const Summary = () => {
   return (
