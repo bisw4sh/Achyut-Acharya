@@ -1,7 +1,10 @@
 const Career = () => {
   return (
-    <div className="">
-      <ol className="items-center sm:flex">
+    <div className="mt-4 ">
+      <h1 className="max-sm:my-4 sm:my-16 font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-950">
+        TimeLine
+      </h1>
+      <ol className="items-center sm:flex mt-8">
         <li className="relative mb-6 sm:mb-0">
           <div className="flex items-center">
             <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">

@@ -4,12 +4,9 @@ const Summary = () => {
   return (
     <div
       id="about"
-      className="px-4 md:h-5/6 flex max-md:flex-col justify-around items-center"
+      className="md:h-5/6 flex max-sm:flex-col-reverse max-md:flex-col justify-around items-center gap-2"
     >
-      <div className="h-full flex flex-col justify-center gap-4 w-2/6 ">
-        <h1 className="top-16 text-4xl font-extrabold text-teal-400">
-          About me
-        </h1>
+      <div className="h-full flex flex-col justify-center gap-4 max-md:w-full px-4 md:w-2/6">
         <h2 className="font-bold text-5xl text-teal-400">
           Hi <span className="text-4xl">👋</span>
         </h2>
@@ -33,7 +30,7 @@ const Summary = () => {
         <img
           src={MainImage}
           alt="headshot"
-          className="rounded-xl aspect-auto h-full drop-shadow-2xl	"
+          className="rounded-xl aspect-auto h-full drop-shadow-2xl z-10"
         />
       </div>
     </div>

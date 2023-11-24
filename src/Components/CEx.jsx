@@ -3,7 +3,7 @@ import Experience from "./small/CEx/Experience";
 
 const CEx = () => {
   return (
-    <div className="h-screen mx-32 my-16">
+    <div className="px-16">
       <Career />
       <Experience />
     </div>
