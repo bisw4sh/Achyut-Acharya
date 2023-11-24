@@ -3,7 +3,7 @@ import Summary from "./small/About/Summary"
 
 const About = () => {
   return (
-    <div className="h-screen">
+    <div className="">
       <Navbar />
       <Summary />
     </div>
