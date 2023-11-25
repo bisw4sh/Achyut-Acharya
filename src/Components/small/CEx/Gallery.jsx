@@ -15,7 +15,7 @@ const Gallery = () => {
 const imgList = [gal1, gal2, gal3, gal4, gal5, gal6, gal7, gal8, gal9, gal10, gal11];
 
 return (
-<div className="flex flex-col justify-center items-center py-8">
+<div className="flex flex-col justify-center items-center py-4">
 
 {/* Pictures */}
 <div className="carousel h-5/6 rounded-xl">
