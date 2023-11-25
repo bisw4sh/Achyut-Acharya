@@ -6,7 +6,7 @@ const Summary = () => {
       id="about"
       className="md:h-5/6 flex max-sm:flex-col-reverse max-md:flex-col justify-around items-center gap-2"
     >
-      <div className="h-full flex flex-col justify-center gap-4 max-md:w-full px-4 md:w-2/6">
+      <div className="h-full flex flex-col justify-center gap-4 max-md:gap-1 max-md:w-full px-4 md:w-2/6">
         <h2 className="font-bold text-5xl text-teal-400">
           Hi <span className="text-4xl">👋</span>
         </h2>

@@ -1,6 +1,6 @@
 const Career = () => {
   return (
-    <div className="mt-4 ">
+    <div className="mt-4" id='career'>
       <h1 className="max-sm:my-4 sm:my-16 font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-950">
         TimeLine
       </h1>

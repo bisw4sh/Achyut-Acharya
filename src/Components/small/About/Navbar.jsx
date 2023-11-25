@@ -24,7 +24,7 @@ const Navbar = ({mode, setMode}) => {
         </span>
       </a>
       <nav className="max-sm:hidden flex items-center text-base justify-center">
-        {["about", "blogs", "career", "experience", "contact"].map(
+        {["about", "career", "experience", "blogs", "contact"].map(
           (nav, index) => {
             return (
               <a
