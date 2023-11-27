@@ -1,6 +1,6 @@
 const Career = () => {
   return (
-    <div className="mt-4" id='career'>
+    <div className="mt-4" id="career">
       <h1 className="max-sm:my-4 sm:my-16 font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-950">
         TimeLine
       </h1>
@@ -77,14 +77,14 @@ const Career = () => {
           </div>
           <div className="mt-3 sm:pe-8">
             <h3 className="text-lg font-semibold text-teal-400 dark:text-white">
-              Degree of Bachelor in Vetenary
+              Degree of Bachelor in Veterinary
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Started from 2019 - 5 yr course
+              Started from 2018 - 5 yr course
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Completed the Degree of Bachelor in Vetenary from Agriculture and
-              Forestry University
+              Completed the Degree of Bachelor in Veterinary from Purbanchal
+              University
             </p>
           </div>
         </li>
