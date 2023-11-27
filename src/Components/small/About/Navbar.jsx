@@ -1,14 +1,35 @@
+import { useEffect } from 'react';
 import resume from "../../../assets/Biswash Dhungana.pdf";
-// import { GiHamburgerMenu } from "react-icons/gi"
 import Hamburger from './Hamburger.jsx'
 import { MdDarkMode } from "react-icons/md";
 import { PiSunDimFill } from "react-icons/pi";
 
 const Navbar = ({mode, setMode}) => {
 
-  const handleMode = () => {
-    setMode( mode === 'dark' ? 'light' : 'dark')
+useEffect(() => {
+  if (
+    localStorage.mode === "dark" ||
+    (!("mode" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    setMode("dark");
+  } else {
+    setMode("light");
   }
+}, []);
+
+useEffect(() => {
+  if (mode === "dark") {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+}, [mode]);
+
+  const handleMode = () => {
+        setMode(mode === "dark" ? "light" : "dark");
+        localStorage.setItem("mode", `${mode === "dark" ? "light" : "dark"}`);
+  };
 
   return (
     <div className="px-4 pt-2 relative flex justify-between items-center">
