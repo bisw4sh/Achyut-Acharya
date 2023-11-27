@@ -39,7 +39,11 @@ const Navbar = ({mode, setMode}) => {
         )}
       </nav>
       <span className="flex items-center justify-between gap-2 ">
-        <button className="btn text-2xl">
+        <button
+          className="btn text-2xl"
+          data-toggle-theme="dark,light"
+          data-act-class="ACTIVECLASS"
+        >
           {mode === "dark" ? (
             <MdDarkMode className="fill-sky-700 h-full" onClick={handleMode} />
           ) : (

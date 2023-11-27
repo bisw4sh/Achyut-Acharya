@@ -7,7 +7,7 @@ import Contact from './Components/Contact'
 export default function App() {
   const [mode, setMode] = useState('light')
   return (
-    <div className="w-full">
+    <div className="w-full" data-theme={mode}>
       <About mode={mode} setMode={setMode}/>
       <CEx />
       <Blogs />

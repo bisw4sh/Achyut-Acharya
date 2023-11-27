@@ -10,16 +10,7 @@ export default {
   plugins: [daisyui],
   // daisyUI config (optional - here are the default values)
   daisyui: {
-    themes: [
-      {
-        mytheme: {
-          "--darkk": "#fff",
-          "--test": "#cf1f1f",
-        },
-      },
-      "light",
-      "dark",
-    ],
+    themes:false,
     // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "dark", // name of one of the included themes for dark mode
     base: true, // applies background color and foreground color for root element by default
