@@ -26,11 +26,11 @@ const Summary = () => {
         </p>
       </div>
 
-      <div className="h-full flex justify-center items-center w-1/2">
+      <div className="h-full flex justify-center items-center md:w-1/2">
         <img
           src={MainImage}
           alt="headshot"
-          className="rounded-xl aspect-auto w-min-fit drop-shadow-2xl z-10"
+          className="rounded-xl aspect-auto self-center drop-shadow-2xl z-10"
         />
       </div>
     </div>
