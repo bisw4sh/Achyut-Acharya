@@ -2,7 +2,7 @@ import Catfish from "../markdown/img/catfish.png";
 
 export default function African_Catfish() {
   return (
-    <main className="blogs min-h-screen w-full flex flex-col justify-center items-center py-4 leading-6 mb-16">
+    <main className="blogs min-h-screen w-full flex flex-col justify-center items-center py-4 leading-6 mb-16 font-pop">
       <div className="md:w-2/3 max-md: px-8 flex flex-col gap-3 text-lg">
         <header>
           <h1>African Catfish: Is it a Real Threat in Nepal?</h1>

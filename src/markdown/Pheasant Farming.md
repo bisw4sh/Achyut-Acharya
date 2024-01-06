@@ -25,9 +25,6 @@ Pheasant farming was introduced in Nepal in 2072 BS. Pheasant eggs were brought 
 - Eggs are collected, stored at 50°F for 24 hours, then shifted to an incubator.
 - After 21 days, they are moved to a hatcher for hatching.
 
-![Day old chicks of Ring neck pheasant](Source: Pokhara Prakritik Krishi Utpadan Pvt. Ltd.)
-
-
 <figure class="image">
     <img src="./img/chicks.png" alt="Day old chicks of Ring neck pheasant" 
     align="center" 
@@ -53,8 +50,6 @@ Pheasant farming was introduced in Nepal in 2072 BS. Pheasant eggs were brought 
 - Up to 8 weeks, pheasants are kept inside sheds; afterward, they are moved to open pens.
 - Pens are constructed with iron wire netting, and proper space per bird is maintained.
 - Sexual dimorphism is observed, with males being larger and more colorful.
-
-![Male Ring Neck Pheasant](Source: Pokhara Prakritik Krishi Utpadan Pvt. Ltd.)
 
 <figure class="image">
     <img src="./img/adult.png" alt="Male Ring Neck Pheasant" 
