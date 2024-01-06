@@ -1,11 +1,14 @@
-import { useRef } from 'react'
+import { useRef } from "react";
+import Profile from "../assets/img/2.jpg";
+import Catfish from "../markdown/img/catfish.png";
+import Pheasant from "../markdown/img/adult.png";
+import Hare from "../markdown/img/hare.webp";
 
 const Blogs = () => {
-
-const readMoreBtn = useRef();
-const disableBtn = () => {
-  readMoreBtn.current.classList.add("btn-disabled");
-}
+  const readMoreBtn = useRef();
+  const disableBtn = () => {
+    readMoreBtn.current.classList.add("btn-disabled");
+  };
 
   return (
     <div className="h-full" id="blogs">
@@ -13,12 +16,12 @@ const disableBtn = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-            The Blog
+          <h2 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-950">
+            Blogs
           </h2>
           <p className="mt-1 text-gray-600 dark:text-gray-400">
-            See how game-changing companies are making the most of every
-            engagement with Preline.
+            Research, findings, articles of veterinarian subject and profession
+            are encapsulated in the following section of the page.
           </p>
         </div>
         {/* <!-- End Title --> */}
@@ -33,28 +36,29 @@ const disableBtn = () => {
             <div className="aspect-w-16 aspect-h-11">
               <img
                 className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                src={Catfish}
                 alt="Image Description"
               />
             </div>
             <div className="my-6">
               <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                Announcing a free plan for small teams
+                African Catfish: Is it a Real Threat in Nepal?
               </h3>
               <p className="mt-5 text-gray-600 dark:text-gray-400">
-                At Wake, our mission has always been focused on bringing
-                openness.
+                This article discussed about the presence of african catfish in
+                Nepal&apos;s ecosystem and if it is a threat to the local
+                species.
               </p>
             </div>
             <div className="mt-auto flex items-center gap-x-3">
               <img
                 className="w-8 h-8 rounded-full"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                src={Profile}
                 alt="Image Description"
               />
               <div>
                 <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                  By Lauren Waller
+                  By Achyut Acharya
                 </h5>
               </div>
             </div>
@@ -69,28 +73,27 @@ const disableBtn = () => {
             <div className="aspect-w-16 aspect-h-11">
               <img
                 className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
+                src={Pheasant}
                 alt="Image Description"
               />
             </div>
             <div className="my-6">
               <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                How Google Assistant now helps you record stories for kids
+                Pheasant Farming: An Overview and Condition in Nepal
               </h3>
               <p className="mt-5 text-gray-600 dark:text-gray-400">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
+                Discussion about Pheasant nurturing, growth and production
               </p>
             </div>
             <div className="mt-auto flex items-center gap-x-3">
               <img
                 className="w-8 h-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                src={Profile}
                 alt="Image Description"
               />
               <div>
                 <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                  By Aaron Larsson
+                  By Achyut Acharya
                 </h5>
               </div>
             </div>
@@ -105,27 +108,29 @@ const disableBtn = () => {
             <div className="aspect-w-16 aspect-h-11">
               <img
                 className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3548&q=80"
+                src={Hare}
                 alt="Image Description"
               />
             </div>
             <div className="my-6">
               <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-                Front accounts - let&apos;s work together
+                Scope of Veternarian in Nepal
               </h3>
               <p className="mt-5 text-gray-600 dark:text-gray-400">
-                Are you an accountant? Are you a company formation advisor?
+                How is the career path of a successful veterinarian in Nepal,
+                from primary sources. And advices on how to begin the career
+                initially for a better outcome.
               </p>
             </div>
             <div className="mt-auto flex items-center gap-x-3">
               <img
                 className="w-8 h-8 rounded-full"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                src={Profile}
                 alt="Image Description"
               />
               <div>
                 <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                  By Lauren Waller
+                  By Achyut Acharya
                 </h5>
               </div>
             </div>
@@ -140,7 +145,7 @@ const disableBtn = () => {
           onClick={() => {}}
         >
           <button
-            className="btn btn-neutral"
+            className="btn dark:btn-neutral"
             ref={readMoreBtn}
             onClick={disableBtn}
           >
