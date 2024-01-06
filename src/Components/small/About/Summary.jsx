@@ -1,4 +1,4 @@
-import MainImage from '../../../assets/img/1.png'
+import MainImage from '../../../assets/img/x.png'
 
 const Summary = () => {
   return (
@@ -26,11 +26,11 @@ const Summary = () => {
         </p>
       </div>
 
-      <div className="h-full flex justify-center items-center">
+      <div className="h-full flex justify-center items-center w-1/2">
         <img
           src={MainImage}
           alt="headshot"
-          className="rounded-xl aspect-auto h-full drop-shadow-2xl z-10"
+          className="rounded-xl aspect-auto w-min-fit drop-shadow-2xl z-10"
         />
       </div>
     </div>
