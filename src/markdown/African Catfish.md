@@ -21,7 +21,7 @@ African Catfish, native to Africa and the Middle East, was introduced for aquacu
 - **Behavior:** Nocturnal, bottom-dwelling, air-breathing
 
 <img src="./img/catfish.png" 
-alt="African Catfish" 
+catfish.png
 align="center" 
 style="
 width:50%;     
